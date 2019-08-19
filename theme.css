@@ -129,6 +129,7 @@ time {
     flex: 1 0 20%;
     flex-direction: column;
     align-content: space-between;
+    margin-left: 2em;
 }
 
 .media {
