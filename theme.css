@@ -1,0 +1,298 @@
+body, html {
+    margin: 0;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    border: 1px solid #e2e2e2;
+    background: white;
+    top: 0;
+    z-index: 1;
+}
+
+#logo {
+    height: 80%;
+}
+
+#hdr-left > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.material-icons {
+    margin: 10px;
+}
+
+#hdr-left span {
+    font-weight: bold;
+}
+
+#hdr-left, #hdr-right {
+    margin: 0 20px;
+}
+
+.btn {
+    background: #6288a5;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 7px 10px;
+}
+
+h1 {
+    padding: 0 25%;
+}
+
+h1 span {
+    display: inline-block;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.main {
+    font-size: 1.125em;
+    margin-top: 60px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid #888;
+    color: black;
+}
+
+time {
+    font-size: 0.75em;
+    margin: 0;
+}
+
+.content > p {
+    padding: 0.75em 0;
+    width: 80%;
+    margin: 0;
+}
+
+.content > p span {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.note {
+    margin:0;
+    color: #666;
+    font-size: 0.8em;
+}
+
+.note span {
+    font-size: 0.8em;
+    color: #888;
+}
+
+.art-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.center {
+    margin-left: 20%;
+    width: 70%;
+    margin-right: 0;
+}
+
+.offcenter {
+    display: flex;
+    flex: 1 0 20%;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+}
+
+.media > * {
+    width: 80%;
+    align-self: center;
+}
+
+aside {
+    flex: 1 0 10%;
+    align-self: flex-end;
+}
+
+aside > .btn {
+    width: 100%;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.inflation h3{
+    margin-bottom: 0;
+}
+
+.table-img {
+    width:100%;
+}
+
+.table {
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    background-image: url("images/coffee.png");
+    background-size: 100% 100%;
+    font-size: 0.8em;
+}
+
+.table span {
+    font-weight: bolder;
+    color: black;
+    font-size: 0.8em;
+}
+
+.table p {
+    padding-top: 180px;
+    margin: 0;
+}
+
+.authors::before {
+    display: block;
+    content: " ";
+    height: 1px;
+    width: 60px;
+    border-top: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.authors {
+    font-size: 0.8em;
+}
+
+.media *{
+    margin: 0;
+}
+
+.recommendations {
+    display: flex;
+    flex-direction: row;
+    margin: 3em 0;
+}
+
+.recommendations h3 {
+    font-size: 0.9em;
+}
+
+.recommendations a {
+    border: 0;
+}
+
+.recommendations > * {
+    border-top: 1px solid black;
+}
+
+.more {
+    flex: 1 0 80%;
+    margin-right: 5%;
+}
+
+.popular {
+    flex: 1 0 30%;
+}
+
+.popular p {
+    padding-top: 1em;
+    border-top: 1px solid #ccc;
+}
+
+.more-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.more-content img {
+    width: 100%;
+}
+
+#picks {
+    border-top: 1px solid black;
+}
+
+footer {
+    border-top: 3px solid #ccc;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.reg li:nth-child(1) {
+    font-weight: bold;
+    margin-bottom: 0.8em;
+    color: rgb(51, 51, 51);
+}
+
+ul {
+    list-style: none;
+    font-size: 0.9em;
+}
+
+#logo2 {
+    width: 100%;
+}
+
+#logo2 img {
+    width: 200px;
+}
+
+.spec li {
+    font-weight: unset;
+    margin:0;
+}
+
+#subscribe {
+    border-left: 1px solid #ccc;
+    padding-left: 1.5em;
+}
+
+.sub li:not(:first-child) {
+    font-weight: bold;
+}
+
+.spec {
+    font-size: 0.75em;
+    line-height: 1.5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+}
+
+
